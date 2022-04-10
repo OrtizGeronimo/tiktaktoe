@@ -1,0 +1,38 @@
+body {
+    background-color: darkslateblue;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    vertical-align:middle;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.titulo{
+    align-self: center;
+    margin: auto;
+}
+
+.box{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    width: 150px;
+    height: 150px;
+    align-content: center;
+}
